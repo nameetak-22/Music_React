@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+}
+
+body{
+	display: grid;
+	place-items: center;
+  
+  background: linear-gradient(to bottom right,#FFC09F,#ffaaaa);
+	min-height: 100vh;
+}
+.main{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    align-items: right;
+    flex-direction: column;
+    background: linear-gradient(to bottom right,#FFC09F,#ffaaaa);
+    box-shadow: 0.1px 4px 8px 4px rgba(0,0,0,0.5);
+}
+
+/*top_section*/
+.top_section{
+  overflow: hidden;
+  background-color:black;
+}
+.top_section h5{
+	color: #fff;
+	font-size: 2em;
+	font-family: 'Charmonman', cursive;
+}
+
+img {
+  display: block;
+  width:100%;
+  height:30%;
+  padding-left:0%;
+  padding-right:0%;
+ }
+ 
+ 
+
+.contact{
+    text-align: center; 
+    margin-top: 0.5%; 
+    padding-left: 10%;
+    padding-right:10% ;
+}
